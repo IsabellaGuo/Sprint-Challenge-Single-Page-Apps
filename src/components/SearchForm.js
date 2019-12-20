@@ -12,7 +12,7 @@ export default function SearchForm(props) {
          type = 'text'
          name = 'textfield'
          onChange = {props.handleChange}
-         value = {props.searchTerm}
+         value = {props.searchBox}
          />
      </form>
     </section>
