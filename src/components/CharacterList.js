@@ -14,7 +14,7 @@ export default function CharacterList() {
   const handleChange = event => {
     setSearchTerm(event.target.value);
   }
-  
+
   useEffect(() => {
     // TODO: Add API Request here - must run in `useEffect`
     //  Important: verify the 2nd `useEffect` parameter: the dependancies array!

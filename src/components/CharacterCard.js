@@ -7,7 +7,8 @@ const StyledDiv = styled.div`
   justify-content: center;
   border: 5px solid hotpink;
   border-radius: 12px;
-  background: gray;
+  background: lightgray;
+  margin: 1.5rem;
 `;
 
 const StyledH2 = styled.h2`
@@ -21,7 +22,9 @@ export default function CharacterCard(props) {
       <img src = {props.img} />
       <StyledH2>
         <h2>{props.name}</h2>
+        <h3>{props.location}</h3>
       </StyledH2>
+
     </StyledDiv>
   );
 }
